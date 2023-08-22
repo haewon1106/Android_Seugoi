@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/logo"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/javastudy"
+            android:scaleType="centerCrop"/>
+
+        <!--  ImageView의 layout에 꽉 차게 크기를 맞춰 출력(비율유지)  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="60dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/study_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="java study"
+                android:textSize="40dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/hashtag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="#java#코딩#개발자"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"/>
+
+            <FrameLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_gravity="center"
+                android:background="@drawable/study_screen_oval">
+
+                <TextView android:id="@+id/Dday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D-40"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnStudy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/study_screen_shadow"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtStudy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="java study 1일차" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="과제 추가하기"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:backgroundTint="#47BE55"/>
+
+</LinearLayout>
