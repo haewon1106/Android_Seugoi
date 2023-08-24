@@ -71,6 +71,7 @@
 
     </FrameLayout>
 
+    <!-- Button 위에 TextView 넣기 -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
