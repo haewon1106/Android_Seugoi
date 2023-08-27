@@ -75,7 +75,7 @@
 
     </FrameLayout>
 
-    <!-- Button 위에 TextView 넣기 -->
+    <!-- LinearLayout 위에 TextView 넣기 -->
     <LinearLayout
         android:id="@+id/btnStudy"
         android:layout_width="match_parent"
