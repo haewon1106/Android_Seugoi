@@ -20,7 +20,8 @@
             android:layout_height="175dp"
             android:layout_marginTop="35dp"
             android:src="@drawable/javastudy"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop" />
+
 
         <!--  ImageView의 layout에 꽉 차게 크기를 맞춰 출력(비율유지)  -->
         <LinearLayout
@@ -148,12 +149,14 @@
 
     <Button
         android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="center"
+        android:layout_marginTop="350dp"
         android:text="과제 추가하기"
         android:textColor="#ffffff"
         android:textSize="15dp"
         android:textStyle="bold"
-        android:backgroundTint="#47BE55"/>
+        android:backgroundTint="#47BE55"
+        android:background="@drawable/round"/>
 
 </LinearLayout>
