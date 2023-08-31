@@ -18,168 +18,168 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="스터디에 대한 설명을 입력해주세요!"
-        android:gravity="center"
-        android:textSize="23dp"
-        android:textStyle="bold"
-        android:textColor="#272727"
         android:layout_gravity="center"
-        />
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="스터디에 대한 설명을 입력해주세요!"
+        android:textColor="#272727"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
     <ImageView
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:background="@drawable/study_ex"
-        android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        />
+        android:layout_marginTop="10dp"
+        android:background="@drawable/study_ex" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="45dp"
-        android:text="* 스터디에서는 이런 일을 해요!"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
-        />
+        android:text="* 스터디에서는 이런 일을 해요!" />
+
     <LinearLayout
         android:layout_width="330dp"
         android:layout_height="145dp"
-        android:background="@drawable/input"
         android:layout_gravity="center"
+        android:background="@drawable/input"
         android:orientation="vertical">
+
         <EditText
             android:layout_width="330dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
+            android:background="@null"
+            android:paddingLeft="10dp"
             android:text="1."
-            android:textSize="15sp"
-            android:paddingLeft="10dp"
             android:textColor="#9C9C9C"
-            android:background="@null"
-            />
+            android:textSize="15sp" />
+
         <EditText
             android:layout_width="330dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
+            android:background="@null"
+            android:paddingLeft="10dp"
             android:text="2."
-            android:textSize="15sp"
-            android:paddingLeft="10dp"
             android:textColor="#9C9C9C"
-            android:background="@null"
-            />
+            android:textSize="15sp" />
+
         <EditText
             android:layout_width="330dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
-            android:text="3."
-            android:textSize="15sp"
-            android:paddingLeft="10dp"
-            android:textColor="#9C9C9C"
             android:background="@null"
-            />
+            android:paddingLeft="10dp"
+            android:text="3."
+            android:textColor="#9C9C9C"
+            android:textSize="15sp" />
     </LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:layout_marginLeft="45dp"
-        android:text="* 스터디에서는 이런 일을 해요!"
+        android:layout_marginTop="15dp"
         android:layout_marginBottom="5dp"
-        />
+        android:text="* 스터디에서는 이런 일을 해요!" />
+
     <EditText
         android:layout_width="330dp"
         android:layout_height="48dp"
-        android:background="@drawable/input"
         android:layout_gravity="center"
-        android:textSize="13sp"
-        android:text="스터디에서 하는 일을 상세하게 작성해주세요"
+        android:background="@drawable/input"
         android:paddingLeft="10dp"
-        android:textColor="#B6B6B6"
-        />
+        android:hint="스터디에서 하는 일을 상세하게 작성해주세요"
+        android:textColorHint="#B6B6B6"
+        android:textSize="13sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:layout_marginLeft="45dp"
-        android:text="* 이런 분들에게 추천해요!"
+        android:layout_marginTop="15dp"
         android:layout_marginBottom="5dp"
-        />
+        android:text="* 이런 분들에게 추천해요!" />
+
     <LinearLayout
         android:layout_width="330dp"
         android:layout_height="145dp"
-        android:background="@drawable/input"
         android:layout_gravity="center"
+        android:background="@drawable/input"
         android:orientation="vertical">
+
         <EditText
             android:layout_width="330dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
-            android:text="1."
-            android:textSize="15sp"
-            android:paddingLeft="10dp"
-            android:textColor="#9C9C9C"
-            android:background="@null"
             android:layout_marginTop="6dp"
-            />
+            android:background="@null"
+            android:paddingLeft="10dp"
+            android:text="1."
+            android:textColor="#9C9C9C"
+            android:textSize="15sp" />
+
         <EditText
             android:layout_width="330dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
+            android:background="@null"
+            android:paddingLeft="10dp"
             android:text="2."
-            android:textSize="15sp"
-            android:paddingLeft="10dp"
             android:textColor="#9C9C9C"
-            android:background="@null"
-            />
+            android:textSize="15sp" />
+
         <EditText
             android:layout_width="330dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
-            android:text="3."
-            android:textSize="15sp"
-            android:paddingLeft="10dp"
-            android:textColor="#9C9C9C"
             android:background="@null"
-            />
+            android:paddingLeft="10dp"
+            android:text="3."
+            android:textColor="#9C9C9C"
+            android:textSize="15sp" />
     </LinearLayout>
+
     <Button
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="26dp"
-        android:backgroundTint="#47BE55"
+        android:layout_marginTop="20dp"
         android:background="@drawable/round"
+        android:backgroundTint="#47BE55"
         android:text="다음 단계로 이동"
-        android:textStyle="bold"
         android:textColor="#ffffff"
-        />
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        >
+        android:layout_marginTop="30dp">
+
         <View
             android:layout_width="7dp"
             android:layout_height="7dp"
-            android:background="@drawable/circle"
-            android:backgroundTint="#47BE55"
             android:layout_marginRight="6dp"
-            />
+            android:background="@drawable/circle"
+            android:backgroundTint="#47BE55" />
+
         <View
             android:layout_width="7dp"
             android:layout_height="7dp"
             android:background="@drawable/circle"
-            android:backgroundTint="#D9D9D9"
-            />
+            android:backgroundTint="#D9D9D9" />
+
         <View
             android:layout_width="7dp"
             android:layout_height="7dp"
-            android:background="@drawable/circle"
-            android:backgroundTint="#D9D9D9"
             android:layout_marginLeft="6dp"
-            />
+            android:background="@drawable/circle"
+            android:backgroundTint="#D9D9D9" />
     </LinearLayout>
 
 

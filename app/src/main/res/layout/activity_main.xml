@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
 
     <ImageView
@@ -20,713 +19,737 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:src="@drawable/menu" />
+
         <EditText
             android:layout_width="320dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:background="@drawable/input"
-            android:text="스터디를 검색해보세요!"
-            android:textSize="15sp"
-            android:paddingLeft="10dp"
-            android:textColor="#AEAEAE"
             android:drawableRight="@drawable/search_img"
-            android:paddingRight="10dp"
-            />
-    </LinearLayout>
-
-    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="25sp"
-        android:text="이해원님이 \n현재 진행중인 스터디"
-        android:textColor="#272727"
-        />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="172dp"
-        >
-        <FrameLayout
-            android:layout_width="365dp"
-            android:layout_height="150dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="15dp"
-            android:background="@drawable/round"
-            android:backgroundTint="#47BE55"
-            android:paddingLeft="12dp"
-            android:text="javascript 스터디"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:layout_gravity="center"
-            android:textAllCaps="false"
-            android:textColor="#ffffff">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical">
-                <ImageView
-                    android:layout_width="125dp"
-                    android:layout_height="125dp"
-                    android:background="@drawable/button_imgsize"
-                    android:layout_gravity="center_vertical"
-                    />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="7dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="javascitp 코테"
-                        android:textSize="22dp"
-                        android:textStyle="bold"
-                        android:textColor="#ffffff"
-                        />
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="#js"
-                            android:textSize="12sp"
-                            android:textColor="#ffffff"
-                            android:layout_marginRight="3dp"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="#javascitp"
-                            android:textSize="12sp"
-                            android:layout_marginRight="3dp"
-                            android:textColor="#ffffff"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="#코딩테스트"
-                            android:textSize="12sp"
-                            android:textColor="#ffffff"
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="28dp">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="D-172"
-                            android:textColor="#ffffff"
-                            android:textStyle="bold"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:text="현재 진생상황"
-                            android:textColor="#ffffff"
-                            android:textStyle="bold"
-                            />
-                    </LinearLayout>
-                    <View
-                        android:layout_width="190dp"
-                        android:layout_marginTop="7dp"
-                        android:layout_height="4dp"
-                        android:background="@drawable/round"
-                        android:backgroundTint="#ffffff"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-        </FrameLayout>
-        <FrameLayout
-            android:layout_width="335dp"
-            android:layout_height="150dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/round"
-            android:backgroundTint="#8047BE55"
-            android:paddingLeft="12dp"
-            android:text="javascript 스터디"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:layout_gravity="center"
-            android:textAllCaps="false"
-            android:textColor="#ffffff">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical">
-                <ImageView
-                    android:layout_width="125dp"
-                    android:layout_height="125dp"
-                    android:background="@drawable/button_imgsize"
-                    android:layout_gravity="center_vertical"
-                    android:alpha="0.5"
-                    />
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="7dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="javascitp 코테"
-                        android:textSize="19dp"
-                        android:textStyle="bold"
-                        android:textColor="#ffffff"
-                        />
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="#js"
-                            android:textSize="12dp"
-                            android:textColor="#ffffff"
-                            android:layout_marginRight="3dp"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="#javascitp"
-                            android:textSize="12dp"
-                            android:layout_marginRight="3dp"
-                            android:textColor="#ffffff"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="#코딩테스트"
-                            android:textSize="12dp"
-                            android:textColor="#ffffff"
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="32dp">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="D-172"
-                            android:textColor="#ffffff"
-                            android:textStyle="bold"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:text="현재 진생상황"
-                            android:textColor="#ffffff"
-                            android:textStyle="bold"
-                            />
-                    </LinearLayout>
-                    <View
-                        android:layout_width="160dp"
-                        android:layout_marginTop="7dp"
-                        android:layout_height="4dp"
-                        android:background="@drawable/round"
-                        android:backgroundTint="#ffffff"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-        </FrameLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="360dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_gravity="center"
-        android:backgroundTint="#F4F4F4"
-        android:background="@drawable/text_round">
-        <TextView
-            android:layout_width="87dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center"
+            android:hint="스터디를 검색해보세요!"
             android:paddingLeft="10dp"
-            android:paddingTop="6dp"
-            android:text="오늘의 명언  | "
-            android:textSize="13sp"
-            android:textStyle="bold"
-            android:textColor="#47BE55"
-            android:backgroundTint="#F4F4F4"
-            android:background="@drawable/text_round"
-            />
-        <TextView
-            android:layout_width="280dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center"
-            android:paddingLeft="3dp"
-            android:paddingTop="6dp"
-            android:text="하기 싫은 것을 해야 하고싶은 것을 할 수 있다"
-            android:textSize="13sp"
-            android:textColor="#272727"
-            android:backgroundTint="#F4F4F4"
-            android:background="@drawable/text_round"
-            />
+            android:paddingRight="10dp"
+            android:textColorHint="#AEAEAE"
+            android:textSize="15sp" />
     </LinearLayout>
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="2dp"
-        android:layout_width="120dp"
-        android:layout_height="20dp"
-        android:layout_marginLeft="35dp">
-        <ImageView
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:background="@drawable/new_study"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="2dp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="신규 스터디"
-            android:textColor="#272727"
-            android:layout_marginLeft="5dp"
-            android:textStyle="bold"
-            android:textSize="14sp"
-            />
-    </LinearLayout>
+            android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        >
-        <FrameLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="165dp"
-            android:layout_height="110dp"
-            android:background="@drawable/study_button"
-            >
-            <LinearLayout
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="110dp"
-                android:orientation="vertical"
-                >
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:background="@drawable/javastudy"
-                    />
-                <LinearLayout
-                    android:layout_width="165dp"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingLeft="10dp">
-                    <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:text="java Study"
-                        android:textStyle="bold"
-                        android:textColor="#272727"
-                        />
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="D-40"
-                        android:gravity="right"
-                        android:textSize="12sp"
-                        android:textColor="#47BE55"
-                        />
-                </LinearLayout>
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="이해원님이 \n현재 진행중인 스터디"
+                android:textColor="#272727"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#java"
-                        android:textSize="10sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#코딩"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#개발자"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp"
-                        />
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp">
+
+                    <FrameLayout
+                        android:layout_width="365dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/round"
+                        android:backgroundTint="#47BE55"
+                        android:paddingLeft="12dp"
+                        android:text="javascript 스터디"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="125dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@drawable/button_imgsize" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp"
+                                android:paddingTop="7dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="javascitp 코테"
+                                    android:textColor="#ffffff"
+                                    android:textSize="22dp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="3dp"
+                                        android:text="#js"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="3dp"
+                                        android:text="#javascitp"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="#코딩테스트"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="28dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="D-172"
+                                        android:textColor="#ffffff"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:text="현재 진생상황"
+                                        android:textColor="#ffffff"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="190dp"
+                                    android:layout_height="4dp"
+                                    android:layout_marginTop="7dp"
+                                    android:background="@drawable/round"
+                                    android:backgroundTint="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="335dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/round"
+                        android:backgroundTint="#47BE55"
+                        android:paddingLeft="12dp"
+                        android:text="javascript 스터디"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="125dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@drawable/button_imgsize" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:paddingLeft="15dp"
+                                android:paddingTop="7dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="javascitp 코테"
+                                    android:textColor="#ffffff"
+                                    android:textSize="19dp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="3dp"
+                                        android:text="#js"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="3dp"
+                                        android:text="#javascitp"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12dp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="#코딩테스트"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="32dp">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="D-172"
+                                        android:textColor="#ffffff"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:text="현재 진생상황"
+                                        android:textColor="#ffffff"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="160dp"
+                                    android:layout_height="4dp"
+                                    android:layout_marginTop="7dp"
+                                    android:background="@drawable/round"
+                                    android:backgroundTint="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
                 </LinearLayout>
-            </LinearLayout>
-        </FrameLayout>
-        <FrameLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="165dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/study_button"
-            >
+
+            </HorizontalScrollView>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="110dp"
-                android:orientation="vertical"
-                >
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:background="@drawable/study1"
-                    />
-                <LinearLayout
-                    android:layout_width="165dp"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
+                android:layout_width="360dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/text_round"
+                android:backgroundTint="#F4F4F4">
+
+                <TextView
+                    android:layout_width="87dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/text_round"
+                    android:backgroundTint="#F4F4F4"
                     android:paddingLeft="10dp"
-                    >
-                    <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:text="왕초보 개발자"
-                        android:textStyle="bold"
-                        android:textColor="#272727"
-                        />
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="D-56"
-                        android:gravity="right"
-                        android:textSize="12sp"
-                        android:textColor="#47BE55"
-                        />
-                </LinearLayout>
+                    android:paddingTop="6dp"
+                    android:text="오늘의 명언  | "
+                    android:textColor="#47BE55"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#java"
-                        android:textSize="10sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#개발"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#왕초보"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp"
-                        />
-                </LinearLayout>
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/text_round"
+                    android:backgroundTint="#F4F4F4"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="6dp"
+                    android:text="하기 싫은 것을 해야 하고싶은 것을 할 수 있다"
+                    android:textColor="#272727"
+                    android:textSize="13sp" />
             </LinearLayout>
-        </FrameLayout>
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        >
-        <FrameLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="165dp"
-            android:layout_height="110dp"
-            android:background="@drawable/study_button"
-            >
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="110dp"
-                android:orientation="vertical"
-                >
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="2dp">
+
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:background="@drawable/study2"
-                    />
-                <LinearLayout
-                    android:layout_width="165dp"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingLeft="10dp">
-                    <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:text="같이 공부해요~"
-                        android:textStyle="bold"
-                        android:textColor="#272727"
-                        />
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="D-14"
-                        android:gravity="right"
-                        android:textSize="12sp"
-                        android:textColor="#47BE55"
-                        />
-                </LinearLayout>
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/new_study" />
 
-                <LinearLayout
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#java"
-                        android:textSize="10sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#코딩공부"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#개발"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp"
-                        />
-                </LinearLayout>
+                    android:layout_marginLeft="5dp"
+                    android:text="신규 스터디"
+                    android:textColor="#272727"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
             </LinearLayout>
-        </FrameLayout>
-        <FrameLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="165dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/study_button"
-            >
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="110dp"
-                android:orientation="vertical"
-                >
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:background="@drawable/study3"
-                    />
-                <LinearLayout
-                    android:layout_width="165dp"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingLeft="10dp">
-                    <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:text="개발자 꿈나무"
-                        android:textStyle="bold"
-                        android:textColor="#272727"
-                        />
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="D-32"
-                        android:gravity="right"
-                        android:textSize="12sp"
-                        android:textColor="#47BE55"
-                        />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    >
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#java"
-                        android:textSize="10sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#스터디"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#개발자"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-        </FrameLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        >
-        <FrameLayout
-            android:layout_width="165dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/study_button">
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="110dp"
-                android:orientation="vertical">
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:background="@drawable/study4" />
-
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="165dp"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingLeft="10dp">
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/study_button">
 
-                    <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:text="초보도 환영"
-                        android:textStyle="bold"
-                        android:textColor="#272727" />
-
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="D-28"
-                        android:gravity="right"
-                        android:textSize="12sp"
-                        android:textColor="#47BE55" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp">
-
-                    <TextView
+                    <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#java"
-                        android:textSize="10sp" />
+                        android:layout_height="110dp"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#초보"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:background="@drawable/javastudy" />
 
-                    <TextView
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="java Study"
+                                android:textColor="#272727"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="45dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="D-40"
+                                android:textColor="#47BE55"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="#java"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#코딩"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#개발자"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="165dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/study_button">
+
+                    <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#개발초짜"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp" />
-                </LinearLayout>
+                        android:layout_height="110dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:background="@drawable/study1" />
+
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="왕초보 개발자"
+                                android:textColor="#272727"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="45dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="D-56"
+                                android:textColor="#47BE55"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="#java"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#개발"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#왕초보"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
             </LinearLayout>
-        </FrameLayout>
-
-        <FrameLayout
-            android:layout_width="165dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/study_button">
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="110dp"
-                android:orientation="vertical">
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:background="@drawable/study5" />
-
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="165dp"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="5dp"
-                    android:paddingLeft="10dp">
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/study_button">
 
-                    <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="wrap_content"
-                        android:text="java를 꽉 java"
-                        android:textStyle="bold"
-                        android:textColor="#272727" />
-
-                    <TextView
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:text="D-10"
-                        android:gravity="right"
-                        android:textSize="12sp"
-                        android:textColor="#47BE55" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp">
-
-                    <TextView
+                    <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#java"
-                        android:textSize="10sp" />
+                        android:layout_height="110dp"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#개발"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp" />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:background="@drawable/study2" />
 
-                    <TextView
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="같이 공부해요~"
+                                android:textColor="#272727"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="45dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="D-14"
+                                android:textColor="#47BE55"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="#java"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#코딩공부"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#개발"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="165dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/study_button">
+
+                    <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="#코딩"
-                        android:textSize="10sp"
-                        android:layout_marginLeft="2dp" />
-                </LinearLayout>
+                        android:layout_height="110dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:background="@drawable/study3" />
+
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="개발자 꿈나무"
+                                android:textColor="#272727"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="45dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="D-32"
+                                android:textColor="#47BE55"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="#java"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#스터디"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#개발자"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
             </LinearLayout>
-        </FrameLayout>
-    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+
+                <FrameLayout
+                    android:layout_width="165dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/study_button">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="110dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:background="@drawable/study4" />
+
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="초보도 환영"
+                                android:textColor="#272727"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="45dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="D-28"
+                                android:textColor="#47BE55"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="#java"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#초보"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#개발초짜"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="165dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/study_button">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="110dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:background="@drawable/study5" />
+
+                        <LinearLayout
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp">
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="java를 꽉 java"
+                                android:textColor="#272727"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="45dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="D-10"
+                                android:textColor="#47BE55"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="#java"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#개발"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:text="#코딩"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
