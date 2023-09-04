@@ -19,6 +19,7 @@
 
         <!--  ImageView의 layout에 꽉 차게 크기를 맞춰 출력(비율유지)  -->
         <ImageView
+            android:id="@+id/study_Image"
             android:layout_width="match_parent"
             android:layout_height="175dp"
             android:layout_marginTop="35dp"

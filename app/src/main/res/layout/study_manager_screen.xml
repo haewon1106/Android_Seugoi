@@ -40,6 +40,7 @@
         </LinearLayout>
 
         <EditText
+            android:id="@+id/task_Title"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginLeft="50dp"
@@ -82,6 +83,7 @@
         </LinearLayout>
 
         <EditText
+            android:id="@+id/task_Content"
             android:layout_width="match_parent"
             android:layout_height="450dp"
             android:layout_marginLeft="50dp"

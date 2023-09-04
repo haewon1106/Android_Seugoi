@@ -11,14 +11,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626995f6-41d0-4750-a567-873317a6ffc3" name="Changes" comment="스터디 화면 구현">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
+    <list default="true" id="626995f6-41d0-4750-a567-873317a6ffc3" name="Changes" comment="study_screen finish">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_join_intro.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_manager_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_manager_screen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_screen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_screen_manager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_screen_manager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +107,7 @@
       <recent name="C:\Users\82105\AndroidStudioProjects\Android_Seugoi\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Android_Seugoi\app\src\main\res\layout" />
       <recent name="C:\Android_Seugoi\app\src\main\res\drawable" />
       <recent name="C:\Users\82105\AndroidStudioProjects\Android_Seugoi\app\src\main\res" />
     </key>
@@ -203,7 +203,35 @@
       <option name="project" value="LOCAL" />
       <updated>1692711750832</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="button -&gt; LinearLayout">
+      <created>1692885274111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692885274111</updated>
+    </task>
+    <task id="LOCAL-00004" summary="study_screen finish">
+      <created>1693134251899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693134251899</updated>
+    </task>
+    <task id="LOCAL-00005" summary="study_screen finish">
+      <created>1693138375986</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693138375986</updated>
+    </task>
+    <task id="LOCAL-00006" summary="study_screen finish">
+      <created>1693347598095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693347598095</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="스터디 화면 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="스터디 화면 구현" />
+    <MESSAGE value="button -&gt; LinearLayout" />
+    <MESSAGE value="study_screen finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="study_screen finish" />
   </component>
 </project>
