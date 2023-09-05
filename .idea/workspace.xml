@@ -11,29 +11,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626995f6-41d0-4750-a567-873317a6ffc3" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/image_border_radius.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
+    <list default="true" id="626995f6-41d0-4750-a567-873317a6ffc3" name="Changes" comment="study_screen finish">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_join_intro.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/study_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/study_button.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chose_study_img.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chose_study_img.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/create_study.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/create_study.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/input_study_ex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/input_study_ex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/input_study_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/input_study_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_manager_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_manager_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_screen_manager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_screen_manager.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\CookAndroid\.android\avd\New_Device_API_34.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\CookAndroid\.android\avd\Pixel_3_XL_API_34.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -81,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
         <option value="resourceFile" />
       </list>
     </option>
@@ -90,9 +82,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2U5WjDb5DxWqOI9lmt6SINOosHF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -107,7 +96,7 @@
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/82105/AndroidStudioProjects/Android_Seugoi/app/src/main/res/values&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/82105/AndroidStudioProjects/Android_Seugoi&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Android_Seugoi&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -118,6 +107,8 @@
       <recent name="C:\Users\82105\AndroidStudioProjects\Android_Seugoi\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Android_Seugoi\app\src\main\res\layout" />
+      <recent name="C:\Android_Seugoi\app\src\main\res\drawable" />
       <recent name="C:\Users\82105\AndroidStudioProjects\Android_Seugoi\app\src\main\res" />
     </key>
   </component>
@@ -205,11 +196,60 @@
       <option name="project" value="LOCAL" />
       <updated>1692578452479</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="스터디 화면 구현">
+      <created>1692711750832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692711750832</updated>
+    </task>
+    <task id="LOCAL-00003" summary="button -&gt; LinearLayout">
+      <created>1692885274111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692885274111</updated>
+    </task>
+    <task id="LOCAL-00004" summary="study_screen finish">
+      <created>1693134251899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693134251899</updated>
+    </task>
+    <task id="LOCAL-00005" summary="study_screen finish">
+      <created>1693138375986</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693138375986</updated>
+    </task>
+    <task id="LOCAL-00006" summary="study_screen finish">
+      <created>1693347598095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693347598095</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="스터디 화면 구현" />
+    <MESSAGE value="button -&gt; LinearLayout" />
+    <MESSAGE value="study_screen finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="study_screen finish" />
   </component>
 </project>
