@@ -33,6 +33,7 @@
         android:background="@drawable/create_study" />
 
     <Button
+        android:id="@+id/btnGo"
         android:layout_width="280dp"
         android:layout_height="50dp"
         android:layout_gravity="center"

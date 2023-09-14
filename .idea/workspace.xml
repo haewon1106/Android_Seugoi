@@ -11,11 +11,31 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="626995f6-41d0-4750-a567-873317a6ffc3" name="Changes" comment="study_screen finish">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_join_intro.xml" afterDir="false" />
+    <list default="true" id="c8711866-ccd9-4c55-855b-612839a4b676" name="변경" comment="remove titleBar">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/chose_study_img.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/create_study.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/input_study_ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/input_study_info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/study_join_intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/study_screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/study_screen_manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/login_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/join.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_manager_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_manager_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/cookandroid/seugoi/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chose_study_img.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chose_study_img.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/create_study.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/create_study.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/input_study_ex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/input_study_ex.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_screen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/study_screen_manager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/study_screen_manager.xml" afterDir="false" />
     </list>
@@ -74,6 +94,7 @@
         <option value="valueResourceFile" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,7 +105,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2U5WjDb5DxWqOI9lmt6SINOosHF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -100,6 +123,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cookandroid.seugoi" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\82105\AndroidStudioProjects\Android_Seugoi\app\src\main\res" />
       <recent name="C:\Users\82105\AndroidStudioProjects\Android_Seugoi\app\src\main\res\values" />
@@ -183,7 +209,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="626995f6-41d0-4750-a567-873317a6ffc3" name="Changes" comment="" />
+      <changelist id="c8711866-ccd9-4c55-855b-612839a4b676" name="변경" comment="remove titleBar" />
       <created>1692230054464</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -231,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693347598095</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="remove titleBar">
+      <created>1693911596657</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693911596658</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +283,7 @@
     <MESSAGE value="스터디 화면 구현" />
     <MESSAGE value="button -&gt; LinearLayout" />
     <MESSAGE value="study_screen finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="study_screen finish" />
+    <MESSAGE value="remove titleBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove titleBar" />
   </component>
 </project>
