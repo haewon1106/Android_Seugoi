@@ -32,19 +32,34 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/chose_image" />
 
-    <Button
-        android:id="@+id/choseImage"
+    <FrameLayout
         android:layout_width="330dp"
         android:layout_height="170dp"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:backgroundTint="#E5F6E7"
-        android:drawableTop="@drawable/icon_img"
-        android:paddingTop="65dp"
-        android:paddingBottom="50dp"
-        android:text="360 X 173"
-        android:textColor="#8CCF94"
-        android:textSize="13sp" />
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/choseImage"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#E5F6E7"
+            android:drawableTop="@drawable/icon_img"
+            android:paddingTop="65dp"
+            android:paddingBottom="50dp"
+            android:text="360 X 173"
+            android:textColor="#8CCF94"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:paddingTop="65dp"
+            android:paddingBottom="50dp" />
+
+    </FrameLayout>
 
     <TextView
         android:layout_width="wrap_content"

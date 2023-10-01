@@ -124,7 +124,7 @@
             android:layout_width="180dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
-            android:background="@drawable/round_button"
+            android:background="@drawable/round"
             android:backgroundTint="#47BE55"
             android:text="로그인하기 ->"
             android:textColor="@color/white"
