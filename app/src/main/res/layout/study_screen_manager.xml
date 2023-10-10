@@ -155,7 +155,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/study_screen_shadow"
-        android:orientation="vertical">
+        android:orientation="vertical" />
 
     <Button
         android:layout_width="250dp"
