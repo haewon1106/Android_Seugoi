@@ -12,7 +12,7 @@ public class join extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chose_study_img);
+        setContentView(R.layout.join);
         id = findViewById(R.id.id);
         emailOne = findViewById(R.id.emailOne);
         emailTwo = findViewById(R.id.emailTwo);

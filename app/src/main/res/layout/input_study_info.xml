@@ -34,6 +34,7 @@
         android:background="@drawable/study_info" />
 
     <EditText
+        android:id="@+id/study_Name"
         android:layout_width="330dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
@@ -45,6 +46,7 @@
         android:textSize="15sp" />
 
     <EditText
+        android:id="@+id/hashtag"
         android:layout_width="330dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
@@ -56,6 +58,7 @@
         android:textSize="15sp" />
 
     <EditText
+        android:id="@+id/end_Day"
         android:layout_width="330dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
@@ -67,6 +70,7 @@
         android:textSize="15sp" />
 
     <EditText
+        android:id="@+id/study_Title"
         android:layout_width="330dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
@@ -78,6 +82,7 @@
         android:textSize="15sp" />
 
     <EditText
+        android:id="@+id/study_Explain"
         android:layout_width="330dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
@@ -89,6 +94,7 @@
         android:textSize="15sp" />
 
     <Button
+        android:id="@+id/btn_Next"
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
