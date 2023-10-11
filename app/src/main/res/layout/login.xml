@@ -76,48 +76,42 @@
             android:textSize="17dp" />
 
         <!-- 하단 링크 -->
-        <LinearLayout
+
+        <TextView
+            android:id="@+id/txtjoin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:textColor="#47BE55"
+            android:textSize="15dp"
             android:layout_gravity="center"
-            android:orientation="horizontal"
-            android:paddingTop="20dp"
-            android:paddingBottom="110dp">
+            android:layout_marginTop="10dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="회원가입"
-                android:textColor="#47BE55"
-                android:textSize="15dp" />
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="  |  "-->
+        <!--                android:textSize="15dp" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="  |  "
-                android:textSize="15dp" />
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="아이디 찾기"-->
+        <!--                android:textColor="#272727"-->
+        <!--                android:textSize="15dp" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="아이디 찾기"
-                android:textColor="#272727"
-                android:textSize="15dp" />
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="  |  "-->
+        <!--                android:textSize="15dp" />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="  |  "
-                android:textSize="15dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="비밀번호 찾기"
-                android:textColor="#272727"
-                android:textSize="15dp" />
-
-        </LinearLayout>
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="비밀번호 찾기"-->
+        <!--                android:textColor="#272727"-->
+        <!--                android:textSize="15dp" />-->
 
         <!-- 로그인 버튼 -->
         <Button
@@ -128,7 +122,8 @@
             android:backgroundTint="#47BE55"
             android:text="로그인하기 ->"
             android:textColor="@color/white"
-            android:textSize="17dp" />
+            android:textSize="17dp"
+            android:layout_marginTop="130dp"/>
 
     </LinearLayout>
 </LinearLayout>
