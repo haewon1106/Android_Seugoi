@@ -6,14 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.w3c.dom.Text;
-
 public class input_study_info extends AppCompatActivity {
-    EditText study_Name, hashtag, end_Day, study_Title, study_Explain;
+    EditText study_Name, hashtag, end_Day, study_Title, study_Explain, work1, work2, work3, studyWork, recom1, recom2, recom3;
     Button btn_Next;
     @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
@@ -27,6 +24,13 @@ public class input_study_info extends AppCompatActivity {
         end_Day = findViewById(R.id.end_Day);
         study_Title = findViewById(R.id.study_Title);
         study_Explain = findViewById(R.id.study_Explain);
+        work1 = findViewById(R.id.work1);
+        work2 = findViewById(R.id.work2);
+        work3 = findViewById(R.id.work3);
+        studyWork = findViewById(R.id.studyWork);
+        recom1 = findViewById(R.id.recom1);
+        recom2 = findViewById(R.id.recom2);
+        recom3 = findViewById(R.id.recom3);
 
         // Button
         btn_Next = findViewById(R.id.btn_Next);
@@ -34,34 +38,21 @@ public class input_study_info extends AppCompatActivity {
         btn_Next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), study_join_intro.class);
+                Intent intent = new Intent(input_study_info.this, study_join_intro.class);
+                intent.putExtra("studyName", study_Name.getText().toString());
+                intent.putExtra("studyTag", hashtag.getText().toString());
+                intent.putExtra("studyTitle", study_Title.getText().toString());
+                intent.putExtra("studyExplain", study_Explain.getText().toString());
+                intent.putExtra("studyWork1", work1.getText().toString());
+                intent.putExtra("studyWork2", work2.getText().toString());
+                intent.putExtra("studyWork3", work3.getText().toString());
+                intent.putExtra("work", studyWork.getText().toString());
+                intent.putExtra("re1", recom1.getText().toString());
+                intent.putExtra("re2", recom2.getText().toString());
+                intent.putExtra("re3", recom3.getText().toString());
 
-                // study_Name의 문자열을 study_join_intro에 study_Name(TextView)에 전달하기
-                String studyName = String.valueOf(study_Name.getText());
-                intent.putExtra("studyName", studyName);
-
-                // hashtag의 문자열을 study_join_intro에 hashtag(TextView)에 전달하기
-                String studyTag = String.valueOf(hashtag.getText());
-                intent.putExtra("studyTag", studyTag);
-
-                // end_Day의 문자열을 study_join_intro에 Dday(TextView)에 전달하기
-                String studyDay = String.valueOf(end_Day.getText());
-                intent.putExtra("studyDay", studyDay);
-
-                // study_Title의 문자열을 study_join_intro에 study_Title(TextView)에 전달하기
-                String studyTitle = String.valueOf(study_Title.getText());
-                intent.putExtra("studyTitle", studyTitle);
-
-                // study_Explain의 문자열을 study_join_intro에 study_Explain(TextView)에 전달하기
-                String studyExplain = String.valueOf(study_Explain.getText());
-                intent.putExtra("studyExplain", studyExplain);
-
-                // study_join_intro 클래스 시작하기
+                // btn_Next를 누르면 study_join_intro로 넘어가기
                 startActivity(intent);
-
-                // btn_Next를 누르면 input_study_ex로 넘어가기
-                Intent in = new Intent(getApplicationContext(), input_study_ex.class);
-                startActivity(in);
             }
         });
     }

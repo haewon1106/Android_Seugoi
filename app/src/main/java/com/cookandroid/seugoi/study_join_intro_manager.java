@@ -7,15 +7,14 @@
 //
 //import androidx.appcompat.app.AppCompatActivity;
 //
-//public class study_join_intro_already extends AppCompatActivity {
+//public class study_join_intro_manager extends AppCompatActivity {
 //
 //    TextView study_Name, hashtag, study_Title, study_Explain, work1, work2, work3, studyWork, recom1, recom2, recom3;
-//
-//    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
+//    @SuppressLint("MissingInflatedId")
 //    @Override
 //    protected void onCreate(Bundle savedInstanceState) {
 //        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.study_join_intro_already);
+//        setContentView(R.layout.study_join_intro_manager);
 //
 //        // TextView
 //        study_Name = findViewById(R.id.study_Name);
@@ -46,6 +45,5 @@
 //        recom1.setText(intent.getStringExtra("re1"));
 //        recom2.setText(intent.getStringExtra("re2"));
 //        recom3.setText(intent.getStringExtra("re3"));
-//
 //    }
 //}

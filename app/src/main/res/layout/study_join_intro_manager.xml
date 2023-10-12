@@ -31,6 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="60dp"
+            android:padding="10dp"
             android:orientation="vertical">
 
             <TextView
@@ -53,24 +54,6 @@
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"
                 android:gravity="center"/>
-
-            <!-- D-day -->
-            <FrameLayout
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:layout_gravity="center"
-                android:background="@drawable/study_screen_oval">
-
-                <TextView android:id="@+id/Dday"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="D-40"
-                    android:textSize="15dp"
-                    android:textColor="#FFFFFF"
-                    android:gravity="center"/>
-
-            </FrameLayout>
 
         </LinearLayout>
 
@@ -335,17 +318,12 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btnJoin"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:text="이미 가입한 스터디"
-            android:textColor="#FFFFFF"
-            android:textSize="15dp"
-            android:textStyle="bold"
-            android:layout_margin="5dp"
-            android:layout_gravity="center"/>
-
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="이전"/>
 
 </LinearLayout>

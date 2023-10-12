@@ -17,11 +17,8 @@ public class study_manager_screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.study_manager_screen);
 
-        // EditText
         task_Title = findViewById(R.id.task_Title);
         task_Content = findViewById(R.id.task_Content);
-
-        // Button
         make_Task = findViewById(R.id.make_Task);
 
         // make_Task 버튼 클릭 시

@@ -19,7 +19,7 @@ public class study_screen_manager extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.chose_study_img);
+        setContentView(R.layout.study_screen_manager);
 
         txtStudyTitle = findViewById(R.id.txtStudyTitle);
         txtDay = findViewById(R.id.txtDay);

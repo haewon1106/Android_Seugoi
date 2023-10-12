@@ -114,7 +114,8 @@
         <!--                android:textSize="15dp" />-->
 
         <!-- 로그인 버튼 -->
-        <Button
+        <android.widget.Button
+            android:id="@+id/btnlogin"
             android:layout_width="180dp"
             android:layout_height="48dp"
             android:layout_gravity="center"
