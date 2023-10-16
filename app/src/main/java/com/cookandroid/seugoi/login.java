@@ -3,35 +3,44 @@ package com.cookandroid.seugoi;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class join extends AppCompatActivity {
-    EditText id, emailOne, emailTwo, pw, birth, job;
+public class login extends AppCompatActivity {
+    EditText id, pw;
+    TextView txtjoin;
     Button btnlogin;
 
-    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.join);
+        setContentView(R.layout.login);
 
         id = findViewById(R.id.id);
-        emailOne = findViewById(R.id.emailOne);
-        emailTwo = findViewById(R.id.emailTwo);
         pw = findViewById(R.id.pw);
-        birth = findViewById(R.id.birth);
-        job = findViewById(R.id.job);
+        txtjoin = findViewById(R.id.txtjoin);
         btnlogin = findViewById(R.id.btnlogin);
+
+        txtjoin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), join.class);
+                startActivity(intent);
+            }
+        });
 
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), login.class);
+                Intent intent = new Intent(getApplicationContext(), home.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
