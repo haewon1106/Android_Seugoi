@@ -51,8 +51,19 @@ public class input_study_info extends AppCompatActivity {
                 intent.putExtra("re2", recom2.getText().toString());
                 intent.putExtra("re3", recom3.getText().toString());
 
+                Intent i = new Intent(input_study_info.this, home.class);
+                i.putExtra("studyName", study_Name.getText().toString());
+
                 // btn_Next를 누르면 study_join_intro로 넘어가기
                 startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.btnBefore).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getApplicationContext(), home.class);
+                startActivity(in);
             }
         });
     }

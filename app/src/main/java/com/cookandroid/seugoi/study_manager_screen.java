@@ -21,19 +21,30 @@ public class study_manager_screen extends AppCompatActivity {
         task_Content = findViewById(R.id.task_Content);
         make_Task = findViewById(R.id.make_Task);
 
+        // 입력한 과제 정보 가져오기
+        String taskTitle = task_Title.getText().toString();
+        String taskContent = task_Content.getText().toString();
+
         // make_Task 버튼 클릭 시
         make_Task.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // 입력한 과제 정보 가져오기
-                String taskTitle = task_Title.getText().toString();
-                String taskContent = task_Content.getText().toString(); // 과제 내용은 댓글 화면에 전달하기
-
                 // study_screen_manager로 데이터 전달
                 Intent intent = new Intent(getApplicationContext(), study_screen_manager.class);
                 intent.putExtra("taskTitle", taskTitle);
-                intent.putExtra("taskContent", taskContent);
                 startActivity(intent);
+            }
+        });
+
+        Intent in = new Intent(getApplicationContext(), come.class);
+        in.putExtra("taskTitle", taskTitle);
+        in.putExtra("taskContent", taskContent);
+
+        findViewById(R.id.btnBefore).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), study_join_intro.class);
+                startActivity(i);
             }
         });
     }

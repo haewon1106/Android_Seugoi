@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
+import android.view.WindowManager;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,11 +15,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-        // 타이틀 바 없애기
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+//        // 타이틀 바 없애기
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.hide();
 
         // 화면이 띄워진 후 일정 시간(2초)이 지나면 MainActivity로 이동
         new Handler().postDelayed(new Runnable() {

@@ -10,7 +10,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class study_join_intro extends AppCompatActivity {
-    Button btnJoin;
     TextView study_Name, hashtag, study_Title, study_Explain, work1, work2, work3, studyWork, recom1, recom2, recom3;
 
     @SuppressLint("MissingInflatedId")
@@ -18,9 +17,6 @@ public class study_join_intro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.study_join_intro);
-
-        // Button
-        btnJoin = findViewById(R.id.btnJoin);
 
         // TextView
         study_Name = findViewById(R.id.study_Name);
@@ -35,20 +31,18 @@ public class study_join_intro extends AppCompatActivity {
         recom2 = findViewById(R.id.recom2);
         recom3 = findViewById(R.id.recom3);
 
-        // input_study_info
-        study_Name.setText("");
-        hashtag.setText("");
-        study_Title.setText("");
-        study_Explain.setText("");
-
-        // input_study_ex
-        work1.setText("");
-        work2.setText("");
-        work3.setText("");
-        studyWork.setText("");
-        recom1.setText("");
-        recom2.setText("");
-        recom3.setText("");
+//        // input_study_info
+//        study_Name.setText("");
+//        hashtag.setText("");
+//        study_Title.setText("");
+//        study_Explain.setText("");
+//        work1.setText("");
+//        work2.setText("");
+//        work3.setText("");
+//        studyWork.setText("");
+//        recom1.setText("");
+//        recom2.setText("");
+//        recom3.setText("");
 
         Intent intent = getIntent();
 
@@ -57,8 +51,6 @@ public class study_join_intro extends AppCompatActivity {
         hashtag.append(intent.getStringExtra("studyTag"));
         study_Title.append(intent.getStringExtra("studyTitle"));
         study_Explain.append(intent.getStringExtra("studyExplain"));
-
-        // input_study_ex
         work1.append(intent.getStringExtra("studyWork1"));
         work2.append(intent.getStringExtra("studyWork2"));
         work3.append(intent.getStringExtra("studyWork3"));
@@ -67,12 +59,19 @@ public class study_join_intro extends AppCompatActivity {
         recom2.append(intent.getStringExtra("re2"));
         recom3.append(intent.getStringExtra("re3"));
 
-        // btnJoin을 누르면 study_screen 화면으로 이동
-        btnJoin.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnBefore).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), study_screen.class);
+                Intent in = new Intent(getApplicationContext(), home.class);
                 startActivity(in);
+            }
+        });
+
+        findViewById(R.id.btnWork).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), study_screen_manager.class);
+                startActivity(i);
             }
         });
     }

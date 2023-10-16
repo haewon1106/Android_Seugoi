@@ -28,7 +28,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="60dp"
+            android:layout_margin="70dp"
             android:orientation="vertical">
 
             <TextView
@@ -51,23 +51,6 @@
                 android:textSize="15dp"
                 android:textColor="#FFFFFF"
                 android:gravity="center"/>
-
-            <FrameLayout
-                android:layout_width="70dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:layout_gravity="center"
-                android:background="@drawable/study_screen_oval">
-
-                <TextView android:id="@+id/DdayM"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="D-40"
-                    android:textSize="15dp"
-                    android:textColor="#FFFFFF"
-                    android:gravity="center"/>
-
-            </FrameLayout>
 
         </LinearLayout>
 
@@ -157,16 +140,16 @@
         android:background="@drawable/study_screen_shadow"
         android:orientation="vertical" />
 
-    <Button
-        android:layout_width="250dp"
-        android:layout_height="40dp"
+    <android.widget.Button
+        android:id="@+id/addWork"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
         android:layout_gravity="center"
-        android:layout_marginTop="350dp"
-        android:text="과제 추가하기"
-        android:textColor="#ffffff"
-        android:textSize="15dp"
-        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round"
         android:backgroundTint="#47BE55"
-        android:background="@drawable/round"/>
+        android:text="과제 만들기"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
 
 </LinearLayout>
