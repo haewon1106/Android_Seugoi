@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class study_join_intro extends AppCompatActivity {
@@ -17,6 +18,12 @@ public class study_join_intro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.study_join_intro);
+
+        // 타이틀 바 없애기
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
 
         // TextView
         study_Name = findViewById(R.id.study_Name);
@@ -44,26 +51,25 @@ public class study_join_intro extends AppCompatActivity {
 //        recom2.setText("");
 //        recom3.setText("");
 
-        Intent intent = getIntent();
+//        Intent intent = getIntent();
 
-        // input_study_info
-        study_Name.append(intent.getStringExtra("studyName"));
-        hashtag.append(intent.getStringExtra("studyTag"));
-        study_Title.append(intent.getStringExtra("studyTitle"));
-        study_Explain.append(intent.getStringExtra("studyExplain"));
-        work1.append(intent.getStringExtra("studyWork1"));
-        work2.append(intent.getStringExtra("studyWork2"));
-        work3.append(intent.getStringExtra("studyWork3"));
-        studyWork.append(intent.getStringExtra("work"));
-        recom1.append(intent.getStringExtra("re1"));
-        recom2.append(intent.getStringExtra("re2"));
-        recom3.append(intent.getStringExtra("re3"));
+//        // input_study_info
+//        study_Name.append(intent.getStringExtra("studyName"));
+//        hashtag.append(intent.getStringExtra("studyTag"));
+//        study_Title.append(intent.getStringExtra("studyTitle"));
+//        study_Explain.append(intent.getStringExtra("studyExplain"));
+//        work1.append(intent.getStringExtra("studyWork1"));
+//        work2.append(intent.getStringExtra("studyWork2"));
+//        work3.append(intent.getStringExtra("studyWork3"));
+//        studyWork.append(intent.getStringExtra("work"));
+//        recom1.append(intent.getStringExtra("re1"));
+//        recom2.append(intent.getStringExtra("re2"));
+//        recom3.append(intent.getStringExtra("re3"));
 
         findViewById(R.id.btnBefore).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), home.class);
-                startActivity(in);
+                finish();
             }
         });
 
